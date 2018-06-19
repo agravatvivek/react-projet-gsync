@@ -11,7 +11,6 @@ const Header = (props) => (
   </div>
   <div className="header-menu">
     <div className="container-dark">
-      <!--<NavLink to="/gmail" activeClassName="is-active" className="button-menu">Gmail</NavLink>-->
       <a href="https://www.thesitewizard.com/" target="_blank" className="button-menu">thesitewizard.com</a>
       <NavLink to="/calender" activeClassName="is-active" className="button-menu">Calender</NavLink>
       <NavLink to="/forms" activeClassName="is-active" className="button-menu">Forms</NavLink>
