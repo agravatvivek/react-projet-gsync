@@ -8,6 +8,7 @@ import GmailPage from './components/GmailPage';
 import FormPage from './components/FormPage';
 import CalendarPage from './components/CalendarPage';
 import Header from './components/Header';
+import Footer from './components/Footer';
 import 'normalize.css/normalize.css';
 import './styles/styles.scss';
 
