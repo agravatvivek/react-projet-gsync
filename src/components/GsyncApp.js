@@ -1,6 +1,5 @@
 import React from 'react';
 import Googlelogin from './Googlelogin';
-import Header from './Header';
 
 export default class GsyncApp extends React.Component {
   state = {
