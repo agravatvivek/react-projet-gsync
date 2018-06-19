@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import {BrowserRouter, Route, Switch, Link, NavLink} from 'react-router-dom';
 import IndecisionApp from './components/indecision-components/IndecisionApp';
 import GsyncApp from './components/GsyncApp';
-import GmailPage from './components/DrivePage';
+import DrivePage from './components/DrivePage';
 import GmailPage from './components/GmailPage';
 import FormPage from './components/FormPage';
 import CalendarPage from './components/CalendarPage';
