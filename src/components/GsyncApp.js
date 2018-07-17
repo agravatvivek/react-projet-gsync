@@ -1,6 +1,7 @@
 import React from 'react';
 import Googlelogin from './Googlelogin';
 import Googlelogout from './Googlelogout';
+import CalendarPage from './CalendarPage';
 
 export default class GsyncApp extends React.Component {
   state = {
@@ -58,7 +59,9 @@ export default class GsyncApp extends React.Component {
     };
     return (
       <div>
-        {componentToDisplay()}
+        {//componentToDisplay()
+        }
+        <CalendarPage/>
       </div>
     );
   }
