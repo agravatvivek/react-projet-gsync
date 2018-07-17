@@ -2,9 +2,49 @@
     left: 0;
     bottom: 0;
     width: 100%;
-    text-align: center;
+    text-align: left;
     background: $off-black;
     color: white;
     margin-top: $s-size;
     padding: $m-size 0;
+}
+
+.table-footer {
+    width: 100%;
+}
+
+.tableRow-footer {
+    width: 50%
+}
+
+.tableRow-footer__last {
+    width: auto
+}
+
+.footer__title {
+    font-size: $m-size;
+    margin: 0;
+}
+
+.footer__subtitle {
+    color: $off-white;
+    font-size: $s-size;
+    font-weight: 200;
+    margin: 0;
+}
+
+.footer__subtitle__developers {
+    text-align: right;
+    color: $off-white;
+    font-size: $s-size;
+    font-weight: 200;
+    margin: 0;
+}
+
+.footer__subtitle__developers__title {
+    text-align: right;
+    color: $off-white;
+    font-size: $s-size;
+    font-weight: 600;
+    margin: 0;
 }

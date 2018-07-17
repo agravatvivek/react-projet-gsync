@@ -6,6 +6,7 @@ const Footer = () => (
     <div className="footer">
       <div className="container">
       <table className="table-footer">
+      <tbody>
         <tr>
           <td className="tableRow-footer">
             <tr>
@@ -21,12 +22,12 @@ const Footer = () => (
           <td className="tableRow-footer__last">
             <tr>
               <h3 className="footer__title">
-                Project supervisor
+                Dr.Foad Marzoughi
               </h3>
             </tr>
             <tr>
-              <h3 className="footer__title">
-                Dr.Foad Marzoughi
+              <h3 className="footer__subtitle__developers">
+                (Project supervisor)
               </h3>
             </tr>
             <tr/>
@@ -60,8 +61,16 @@ const Footer = () => (
                 Vivek Agravat
               </h3>
             </tr>
-          </td>  
+          </td> 
+          <td>
+            <tr>
+              <h3 className="footer__title">
+              <img src="https://www.spabeauty.co.nz/ic/685810074/photo%20300x300%20.jpg" height="132" width="132" alt="Cheetah!" />
+              </h3>
+            </tr>
+          </td> 
         </tr>
+        </tbody>
       </table>
       </div>
     </div>

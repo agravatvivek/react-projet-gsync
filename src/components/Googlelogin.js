@@ -6,6 +6,24 @@ export default class Googlelogin extends React.Component {
       return (
         <div>
             <GoogleLogin
+            className="button-menu"
+            clientId="898293876566-iahl0l51tvtut5sfg2bopf4dlhnvsllu.apps.googleusercontent.com"
+            buttonText="G Login"
+            onSuccess={this.props.componentGoogleLogin}
+            onFailure={this.props.componentGoogleLogin}
+            />
+            </div>
+      );
+    }
+  }
+
+/*
+
+export default class Googlelogin extends React.Component {
+    render() {
+      return (
+        <div>
+            <GoogleLogin
             className="big-button"
             clientId="898293876566-iahl0l51tvtut5sfg2bopf4dlhnvsllu.apps.googleusercontent.com"
             buttonText="Login with google"
@@ -16,3 +34,5 @@ export default class Googlelogin extends React.Component {
       );
     }
   }
+
+*/

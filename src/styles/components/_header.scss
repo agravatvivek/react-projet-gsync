@@ -25,6 +25,18 @@
     margin: 0;
 }
 
+.table-header {
+    width: 100%;
+}
+
+.tableRow-header {
+    width: auto
+}
+
+.tableRow-header__last {
+    width: 20%
+}
+
 @media (min-width: $desktop-breakpoint) {
     .header-menu {
         margin-bottom: $xl-size;
