@@ -64,8 +64,8 @@ export default class Header extends React.Component {
   </div>
   <div className="header-menu">
     <div className="container-dark">
-      <NavLink to="/calender" activeClassName="is-active" className="button-menu">Calender</NavLink>
       <NavLink to="/forms" activeClassName="is-active" className="button-menu">Forms</NavLink>
+      <NavLink to="/calender" activeClassName="is-active" className="button-menu">Calender</NavLink>
       <NavLink to="/drive" activeClassName="is-active" className="button-menu">Drive</NavLink>
       <NavLink to="/gmail" activeClassName="is-active" className="button-menu">Gmail</NavLink>
     </div>
